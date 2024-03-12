@@ -3,12 +3,12 @@ import java.util.List;
 import java.util.Scanner;
 
 class Movie {     
-    String name;
-    double childPrice;
+    String name;  // name for movies
+    double childPrice; // prices for user if they are child, adult, senior
     double adultPrice;
-    double seniorPrice;
+    double seniorPrice; 
 
-    public Movie(String name, double childPrice, double adultPrice, double seniorPrice) {
+    public Movie(String name, double childPrice, double adultPrice, double seniorPrice) { //constructor
         this.name = name;
         this.childPrice = childPrice;
         this.adultPrice = adultPrice;
